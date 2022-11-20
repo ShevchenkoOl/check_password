@@ -66,9 +66,9 @@ input.addEventListener('keyup', function (evt) {
     third.style.backgroundColor = '#cacaca';
   }
   
-  else if (input_val.length >= 8){
-    len.style.color = '#61ac27';
-  }
+  // if (input_val.length >= 8){
+  //   len.style.color = '#61ac27';
+  // }
 
   else if (input_val.length >= 8 && rating < 3) {
     first.style.backgroundColor = '#fcf403';
