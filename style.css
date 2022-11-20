@@ -1,0 +1,39 @@
+.block-input {
+    width: 200px;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+}
+
+#block_check {
+    height: 5px;
+    margin-top: 5px;
+    transition: 1s;
+}
+
+.rectangle{
+    border:solid 1px black;
+    border-radius: 1em; 
+    background-color: #cacaca;
+    margin: 3px;
+    height: 10px;
+    width:47px;
+}
+
+.check-rectangle{
+display: inline-flex;
+padding-left: 20px;
+}
+
+#message {
+    display:none;
+}
+.invalid{
+    color: red;
+}
