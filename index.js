@@ -20,9 +20,9 @@ input.addEventListener('keyup', function (evt) {
   let is_s = false;
   let is_d = false; 
   let is_sp = false;
-  letter.style.color = '#e7140d';
-  digit.style.color = '#e7140d';
-  special.style.color = '#e7140d';
+  // letter.style.color = '#e7140d';
+  // digit.style.color = '#e7140d';
+  // special.style.color = '#e7140d';
 
   for (let i = 0; i < input_val.length; i++) {
    
